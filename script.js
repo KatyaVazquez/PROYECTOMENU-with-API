@@ -38,10 +38,6 @@ fetch(
     const itemdescripcion = document.createElement('Descripción'); 
     itemdescripcion.className = 'item Descripción'
   
-    
-    
-
-    // Agregamos el producto a la lista
     LISTA.appendChild(producto);
     producto.appendChild(itemdescripcion);
 }
